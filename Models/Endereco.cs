@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducaFlow.Models
 {
@@ -14,8 +13,5 @@ namespace EducaFlow.Models
         public string? Cidade { get; set; }
         public string? Estado { get; set; }
         public string? Cep { get; set; }
-        [ForeignKey("Aluno")]
-        public int AlunoId { get; set; }
-        public Aluno? Aluno { get; set; }
     }
 }

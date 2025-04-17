@@ -15,24 +15,17 @@ namespace EducaFlow.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);  // Para chamar qualquer configuração da classe base, caso necessário.
+            base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Aluno>()
-                .HasKey(a => a.IdAluno);  // Configuração da chave primária para a entidade Aluno
+                .HasKey(a => a.IdAluno);  
 
-            // Configuração de relacionamento One-to-One entre Aluno e Contato
             modelBuilder.Entity<Aluno>()
-                .HasOne(a => a.Contato)
-                .WithOne(c => c.Aluno)
-                .HasForeignKey<Contato>(c => c.AlunoId)
-                .OnDelete(DeleteBehavior.Cascade);  // Caso o aluno seja excluído, o contato não será removido, apenas o AlunoId será setado para null
+                .HasOne(a => a.Contato);
 
-            // Configuração de relacionamento One-to-One entre Aluno e Endereco
             modelBuilder.Entity<Aluno>()
-                .HasOne(a => a.Endereco)
-                .WithOne(e => e.Aluno)
-                .HasForeignKey<Endereco>(e => e.AlunoId)
-                .OnDelete(DeleteBehavior.Cascade);  // Caso o aluno seja excluído, o endereço também será removido, mas pode ser configurado a partir de SetNull se necessário
+                .HasOne(a => a.Endereco);
+
         }
     }
 }

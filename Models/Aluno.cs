@@ -35,8 +35,8 @@ namespace EducaFlow.Models
         public bool Deficiencia { get; set; }
         public string? DeficienciaEspecificar { get; set; }
         public bool Emancipado { get; set; }
-        public Contato Contato { get; set; } = new Contato();
-        public Endereco Endereco { get; set; } = new Endereco();
+        public Contato? Contato { get; set; }
+        public Endereco? Endereco { get; set; } 
         public int IdContato { get; set; }
         public int IdEndereco { get; set; }
     }

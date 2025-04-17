@@ -38,6 +38,9 @@ namespace EducaFlow.Migrations
                         .HasMaxLength(14)
                         .HasColumnType("nvarchar(14)");
 
+                    b.Property<int?>("ContatoIdContato")
+                        .HasColumnType("int");
+
                     b.Property<DateOnly>("DatadeEmissao")
                         .HasColumnType("date");
 
@@ -52,6 +55,9 @@ namespace EducaFlow.Migrations
 
                     b.Property<bool>("Emancipado")
                         .HasColumnType("bit");
+
+                    b.Property<int?>("EnderecoIdEndereco")
+                        .HasColumnType("int");
 
                     b.Property<int>("EstadoCivil")
                         .HasColumnType("int");
@@ -113,6 +119,10 @@ namespace EducaFlow.Migrations
 
                     b.HasKey("IdAluno");
 
+                    b.HasIndex("ContatoIdContato");
+
+                    b.HasIndex("EnderecoIdEndereco");
+
                     b.ToTable("Alunos");
                 });
 
@@ -124,9 +134,6 @@ namespace EducaFlow.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdContato"));
 
-                    b.Property<int>("AlunoId")
-                        .HasColumnType("int");
-
                     b.Property<string>("EmailContato")
                         .HasColumnType("nvarchar(max)");
 
@@ -134,9 +141,6 @@ namespace EducaFlow.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("IdContato");
-
-                    b.HasIndex("AlunoId")
-                        .IsUnique();
 
                     b.ToTable("Contatos");
                 });
@@ -148,9 +152,6 @@ namespace EducaFlow.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdEndereco"));
-
-                    b.Property<int>("AlunoId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Bairro")
                         .HasColumnType("nvarchar(max)");
@@ -175,41 +176,22 @@ namespace EducaFlow.Migrations
 
                     b.HasKey("IdEndereco");
 
-                    b.HasIndex("AlunoId")
-                        .IsUnique();
-
                     b.ToTable("Enderecos");
-                });
-
-            modelBuilder.Entity("EducaFlow.Models.Contato", b =>
-                {
-                    b.HasOne("EducaFlow.Models.Aluno", "Aluno")
-                        .WithOne("Contato")
-                        .HasForeignKey("EducaFlow.Models.Contato", "AlunoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Aluno");
-                });
-
-            modelBuilder.Entity("EducaFlow.Models.Endereco", b =>
-                {
-                    b.HasOne("EducaFlow.Models.Aluno", "Aluno")
-                        .WithOne("Endereco")
-                        .HasForeignKey("EducaFlow.Models.Endereco", "AlunoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Aluno");
                 });
 
             modelBuilder.Entity("EducaFlow.Models.Aluno", b =>
                 {
-                    b.Navigation("Contato")
-                        .IsRequired();
+                    b.HasOne("EducaFlow.Models.Contato", "Contato")
+                        .WithMany()
+                        .HasForeignKey("ContatoIdContato");
 
-                    b.Navigation("Endereco")
-                        .IsRequired();
+                    b.HasOne("EducaFlow.Models.Endereco", "Endereco")
+                        .WithMany()
+                        .HasForeignKey("EnderecoIdEndereco");
+
+                    b.Navigation("Contato");
+
+                    b.Navigation("Endereco");
                 });
 #pragma warning restore 612, 618
         }

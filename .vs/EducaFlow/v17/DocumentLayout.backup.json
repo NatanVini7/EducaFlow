@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\educaflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:educaflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\models\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:models\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\context\\alunocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:context\\alunocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Endereco.cs",
+              "RelativeDocumentMoniker": "Models\\Endereco.cs",
+              "ToolTip": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Endereco.cs",
+              "RelativeToolTip": "Models\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:09:06.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EducaFlow.csproj",
+              "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\EducaFlow.csproj",
+              "RelativeDocumentMoniker": "EducaFlow.csproj",
+              "ToolTip": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\EducaFlow.csproj",
+              "RelativeToolTip": "EducaFlow.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-16T12:27:03.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "Models\\Aluno.cs",
+              "ToolTip": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Aluno.cs",
+              "RelativeToolTip": "Models\\Aluno.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAywFcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:08:51.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contato.cs",
+              "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Contato.cs",
+              "RelativeDocumentMoniker": "Models\\Contato.cs",
+              "ToolTip": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Contato.cs",
+              "RelativeToolTip": "Models\\Contato.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:09:01.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:39:45.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T13:15:48.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlunoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Context\\AlunoContext.cs",
+              "RelativeDocumentMoniker": "Context\\AlunoContext.cs",
+              "ToolTip": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Context\\AlunoContext.cs",
+              "RelativeToolTip": "Context\\AlunoContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:07:30.187Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

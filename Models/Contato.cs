@@ -9,8 +9,5 @@ namespace EducaFlow.Models
         public int IdContato { get; set; }
         public string? TelefoneContato { get; set; }
         public string? EmailContato { get; set; }
-        [ForeignKey("Aluno")]
-        public int AlunoId { get; set; }
-        public Aluno? Aluno { get; set; }
     }
 }
