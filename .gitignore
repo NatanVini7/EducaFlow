@@ -1,0 +1,45 @@
+# Build results
+/bin/
+/obj/
+
+# Usuário do Visual Studio
+*.user
+*.userosscache
+*.suo
+
+# Arquivos temporários do Visual Studio
+*.vspscc
+*.vssscc
+*.tmp
+*.bak
+
+# Configurações de pasta do Visual Studio
+.vs/
+
+# Backup do csproj
+*.csproj.Backup*
+
+# Logs
+*.log
+
+# Dados sensíveis
+appsettings.Development.json
+
+# Pastas de build/output
+wwwroot/
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider
+.idea/
+
+# Arquivos de publish
+publish/
+
+# Outros arquivos temporários ou específicos de IDEs
+*.dbmdl
+*.cache
+*.swp

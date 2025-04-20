@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\controller\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:controller\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|c:\\users\\natan\\desktop\\reposit\u00F3rio c#\\educaflow\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEE710C5-3DFC-4DD1-8C6A-1F51C2B3F9C6}|EducaFlow.csproj|solutionrelative:models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AlunoController.cs",
+              "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Controller\\AlunoController.cs",
+              "RelativeDocumentMoniker": "Controller\\AlunoController.cs",
+              "ToolTip": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Controller\\AlunoController.cs",
+              "RelativeToolTip": "Controller\\AlunoController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwC4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:32:12.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Endereco.cs",
               "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Endereco.cs",
               "RelativeDocumentMoniker": "Models\\Endereco.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "Models\\Endereco.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:09:06.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:09:06.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EducaFlow.csproj",
               "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\EducaFlow.csproj",
               "RelativeDocumentMoniker": "EducaFlow.csproj",
@@ -67,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Aluno.cs",
               "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Aluno.cs",
               "RelativeDocumentMoniker": "Models\\Aluno.cs",
@@ -79,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Contato.cs",
               "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Models\\Contato.cs",
               "RelativeDocumentMoniker": "Models\\Contato.cs",
@@ -91,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -115,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AlunoContext.cs",
               "DocumentMoniker": "C:\\Users\\Natan\\Desktop\\Reposit\u00F3rio C#\\EducaFlow\\Context\\AlunoContext.cs",
               "RelativeDocumentMoniker": "Context\\AlunoContext.cs",
