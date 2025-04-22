@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EducaFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d34df29d495ee374e912130b318be040b9f91b9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b291b407fca47356f246648f85ec79b3e474c069")]
 [assembly: System.Reflection.AssemblyProductAttribute("EducaFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EducaFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

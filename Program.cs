@@ -30,17 +30,18 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<AlunoContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<EscolaContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<AlunoService>();
 builder.Services.AddScoped<EnderecoService>();
+builder.Services.AddScoped<EscolaService>();
 
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 app.UseCors("AllowReactApp");
-
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

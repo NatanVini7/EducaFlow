@@ -15,7 +15,6 @@ namespace EducaFlow.Controllers
             _alunoService = alunoService;
         }
 
-        // GET: api/aluno
         [HttpGet]
         public async Task<ActionResult<List<Aluno>>> GetAlunos()
         {
@@ -23,7 +22,6 @@ namespace EducaFlow.Controllers
             return Ok(alunos);
         }
 
-        // GET: api/aluno/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<Aluno>> GetAlunoById(int id)
         {
@@ -34,7 +32,6 @@ namespace EducaFlow.Controllers
             return Ok(aluno);
         }
 
-        // POST: api/aluno
         [HttpPost]
         public async Task<ActionResult<Aluno>> AddAluno(Aluno aluno)
         {
@@ -42,7 +39,6 @@ namespace EducaFlow.Controllers
             return CreatedAtAction(nameof(GetAlunoById), new { id = novoAluno.IdAluno }, novoAluno);
         }
 
-        // PUT: api/aluno/{id}
         [HttpPut("{id}")]
         public async Task<ActionResult<Aluno>> UpdateAluno(int id, Aluno aluno)
         {
@@ -53,7 +49,6 @@ namespace EducaFlow.Controllers
             return Ok(alunoAtualizado);
         }
 
-        // DELETE: api/aluno/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAluno(int id)
         {
